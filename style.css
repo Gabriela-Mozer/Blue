@@ -1,9 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap");
-* {
+/* * {
   box-sizing: border-box;
-}
+} */
 body {
-  margin: auto;
+  /* margin: auto; */
   background: linear-gradient(
     150.73deg,
     #080f31 30.39%,
@@ -12,15 +12,16 @@ body {
   background-repeat: no-repeat;
   height: 100%;
 }
-.container {
+.container-fluid {
   font-family: "Indie Flower", cursive;
-  display: grid;
-  grid-template-columns: 1fr;
+  /* display: grid;
+  grid-template-columns: 1fr; */
   
   /* width: 100%; */
 }
 .main {
   background-image: url(images/CRYSTAL\ ball\ 1.svg);
+  background-size: contain;
   width: 100%;
   height: 1107px;
   background-repeat: no-repeat;
@@ -31,11 +32,9 @@ body {
   height: 150px;
   /* width: 450px; */
   display: flex;
-  /* margin-right : 100px;  */
   font-size: 26px;
   text-transform: uppercase;
   justify-content: flex-end;
-  /* justify-items: space-around; */
 }
 .nav-wrapper {
   padding: 50px;
@@ -44,10 +43,13 @@ body {
   color: #fff;
   text-decoration: none;
 }
+.nav-wrapper a:hover{
+  text-decoration: none;
+  color: rgb(105, 36, 161);
+}
 .welcome-header {
   display: flex;
   justify-content: center;
-  /* margin-top: 200px; */
   text-transform: uppercase;
   color: #0a0935;
   font-size: 48px;
@@ -58,6 +60,8 @@ body {
   background-image: url(images/Group\ 1\ \(1\).svg);
   background-repeat: no-repeat;
 }
+
+
 .about-header {
   color: #fff;
   font-size: 48px;
@@ -75,7 +79,7 @@ body {
   /* padding: 0 5em 10em 0; */
 }
 
-@media (max-width: 500px) {
+/* @media (max-width: 500px) {
   .container {
     display: grid;
     grid-template-columns: 1fr;
@@ -84,22 +88,21 @@ body {
     margin: 10px;
   }
 
-  .main {
-  }
+  
   .welcome-header {
-    /* position: relative; */
+    position: relative;
   }
   .header {
-    /* padding: 5px; */
+    padding: 5px;
     color: #fff;
     font-size: 35px;
-    /* align-self: flex-start; */
+    align-self: flex-start;
   }
 }
 @media (max-width: 800px) {
-  /* .container{
+  .container{
         grid-template-columns: 1fr;
-    } */
+    }
   .header {
     font-size: 45px;
   }
@@ -108,4 +111,4 @@ body {
   .main {
     background-size: 100%;
   }
-}
+} */
