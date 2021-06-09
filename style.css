@@ -1,9 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap");
-/* * {
+* {
   box-sizing: border-box;
-} */
+}
 body {
-  /* margin: auto; */
+  margin: auto;
   background: linear-gradient(
     150.73deg,
     #080f31 30.39%,
@@ -14,8 +14,8 @@ body {
 }
 .container-fluid {
   font-family: "Indie Flower", cursive;
-  /* display: grid;
-  grid-template-columns: 1fr; */
+  display: grid;
+  grid-template-columns: 1fr;
   
   /* width: 100%; */
 }
@@ -79,7 +79,7 @@ body {
   /* padding: 0 5em 10em 0; */
 }
 
-/* @media (max-width: 500px) {
+@media (max-width: 500px) {
   .container {
     display: grid;
     grid-template-columns: 1fr;
@@ -111,4 +111,4 @@ body {
   .main {
     background-size: 100%;
   }
-} */
+}
